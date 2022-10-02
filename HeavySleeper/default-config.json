@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "settings": {
+    "Minimum Time Left (seconds)": {
+      "type": "number",
+      "value": 720
+    },
+    "Maximum Time Left (seconds)": {
+      "type": "number",
+      "value": 1320
+    },
+    "Light Sleeper Mode (Wake up at 0 seconds)": {
+      "type": "toggle",
+      "value": false
+    }
+  }
+}
