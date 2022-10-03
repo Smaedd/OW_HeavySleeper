@@ -40,6 +40,10 @@ namespace HeavySleeper
                     // We are waking up at second 0, so we set duration rather than offset
                     // (Offset becomes 0 in the SetSecondsRemaining call.)
                     TimeLoop._loopDuration = timeLeft;
+                } else
+                {
+                    // Ensure correct loop duration
+                    TimeLoop._loopDuration = DEFAULT_LOOP_DURATION;
                 }
 
                 TimeLoop.SetSecondsRemaining(timeLeft);
